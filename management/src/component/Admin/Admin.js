@@ -180,7 +180,7 @@ const Admin = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <div class="mb-5"style={{ width: "100%", maxWidth: "400px", marginBottom: "10px" }}>
+            <div class="mb"style={{ width: "100%", maxWidth: "400px", marginBottom: "10px" }}>
               <label for="formFile" class="form-label">Upload your image</label>
               <input onChange={imageChange} class="form-control" type="file" id="formFile" />
             </div>
