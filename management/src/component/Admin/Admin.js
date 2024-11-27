@@ -188,7 +188,7 @@ const Admin = () => {
               <Link to="/Adminsign">Already Registered? Sign In</Link>
             </div>
 
-            <button type="submit" className="btn btn-primary" style={{ marginTop: "2px" }}>
+            <button type="submit" className="btn btn-primary" >
               Submit
             </button>
           </form>
